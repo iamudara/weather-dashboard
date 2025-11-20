@@ -14,12 +14,6 @@ function App() {
     setCity(event.target.value);
   }
 
-  function handleKeyPress(event) {
-    if (event.key === 'Enter') {
-      handleSearch();
-    }
-  }
-
   // Event handler: triggers search (handles both button click and Enter key)
   function handleSearchSubmit(event) {
     event.preventDefault();  // Prevent page reload
